@@ -1,7 +1,7 @@
 {
     "name": "MODULE",
     
-    "image": "ghcr.io/socstech/MODULE:latest",
+    "image": "ghcr.io/socstech/cmp9065:latest",
 
     //"build": { "dockerfile": "Dockerfile" },
 
