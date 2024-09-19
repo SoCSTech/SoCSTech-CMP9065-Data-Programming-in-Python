@@ -1,5 +1,14 @@
 # CMP9065 - Data Programming in Python
-This repository houses the devcontainer and docker image for the Data Programming in Python module at the University of Lincoln.
+This repository houses the course materials for the Data Programming in Python module at the University of Lincoln. 
+
+In order to set up your personal computer to run the module's lectures and workshops Jupyter Notebooks, you have two options:
+
+ - [Setup with Docker](setup-with-docker) - this is the same setup you have in the labs PC.
+ - [Native setup](native-setup) - simpler, but may cause conflicts with other packages/softwares already installed.
+
+
+---
+# Setup with Docker
 ## What is Docker?
 Docker is a platform which allows developers to create and share containers.
 
@@ -49,3 +58,35 @@ If you are struggling to get this to work, try these common troubleshooting step
 2. Make sure Docker Desktop is open and running.
 3. Make sure Docker Desktop is updated.
 4. Make sure VS Code has the Remote Development extension pack. You can install this through the Extensions tab in VS Code if it isn't working through the web link above.
+
+
+# Native setup
+Following these steps you will be downloading all the software packages required for this software on your computer. Some packages may conflict with already existing installations, if that is the case (or you are worried it may be the case), we suggest you setup your PC following the [Setup with Docker](setup-with-docker) instructions.
+## Process
+1. Ensure you have the latest version of Python installed. It can be obtained from [https://www.python.org/downloads/](https://www.python.org/downloads/) for all operating sytems.
+2. Using your Command Prompt/Terminal launch the following command to install Jupyter Notebook
+   ```
+   pip install --upgrade pip
+   pip install notebook
+   ```
+3. From the command prompt, install all the packages required throughout the module:
+   ```
+   pip install scikit-learn scikit-image seaborn matplotlib numpy pandas scipy
+   ```
+1. Clone this repository to your computer by opening a command prompt and launching
+   ```
+   git clone https://github.com/SoCSTech/CMP9065-Data-Programming-in-Python.git
+   ```
+3. Now that Python and Jupyter Notebook are installed use Command Prompt/Terminal (or similar) to run the command:​
+   ```
+   jupyter notebook
+   ```
+4. The previous step should have opened a browser window at [http://localhost:8888/](http://localhost:8888/), if not go to this address by clicking the link here.
+5. Select the folder  **CMP9065-Data-Programming-in-Python/CMP9065 Data Programming in Python** which contains the content of the module you have cloned.
+6. Open the notebook file for the corresponding week you need to work on; for example, **Workshop 1 - Module Overview and Introduction to Python.ipynb**.
+9. Every week there will be new materials pushed to this repository. In order to get the most up-to-date version of the materials every time, before starting to work open a command prompt inside the **CMP9065-Data-Programming-in-Python** folder and enter
+   ```
+   git pull
+   ```
+
+
