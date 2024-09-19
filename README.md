@@ -26,15 +26,14 @@ These prerequisites are the same for every Computer Science module using Docker 
 
 ### Process
 
-1. Clone this repository to your computer by clicking the green 'Code' button, and clicking 'Download ZIP'.
-2. Extract the downloaded Zip file.
-3. Inside the extracted folder is a folder entitled 'CMP9065 Data Programming in Python' which contains the .devcontainer folder. Move 'CMP9065 Data Programming in Python' to wherever you like, this will be your working directory for this module.
+1. Clone this repository to your computer by opening a command prompt (a.k.a. terminal) and launching `git clone https://github.com/SoCSTech/CMP9065-Data-Programming-in-Python.git`
+3. Inside the cloned folder, there is a folder entitled 'CMP9065 Data Programming in Python' which contains the .devcontainer folder.
 4. Make sure Docker Desktop is running. You can minimise the window.
 5. Open VS Code, go to File -> Open Folder, and select your 'CMP9065 Data Programming in Python' folder.
 6. Click the 'Reopen in container' pop up in the bottom right corner of your VS Code window. If you do not see this pop up, press F1, and type 'Reopen in Container', and click on the 'Dev Containers: Reopen in Container' command.
 7. The Docker image will now be downloaded, and the container will be started. You can click 'show log' in the bottom right corner to see what is going on.
 8. Your docker container is now running! Within this VS Code window, you can now run workshop or assignment material exactly the same as in the computing labs.
-9. If we ever push an update to the container, you will need to go to Docker Desktop -> Images, find ghcr.io/socstech/cmp9065, click the ... button, and click pull. This will pull the most recent version of the docker container. There should be Blackboard announcements letting you know if you ever need to do this, but it is good to do this step every time before you want to use the container.
+9. Every week there will be new materials pushed to this repository. In order to get the most up-to-date version of the materials every time, before starting to work open a command prompt inside the 'CMP9065-Data-Programming-in-Python' folder and enter `git pull`.
 
 ### Troubleshooting
 
