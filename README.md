@@ -1,10 +1,10 @@
 # CMP9065 - Data Programming in Python
 This repository houses the course materials for the Data Programming in Python module at the University of Lincoln. 
 
-In order to set up your personal computer to run the module's lectures and workshops Jupyter Notebooks, you have two options:
+In order to set up your personal computer to run the module lectures and workshops' Jupyter Notebooks, you have two options:
 
- - [Setup with Docker](setup-with-docker) - this is the same setup you have in the labs PC.
- - [Native setup](native-setup) - simpler, but may cause conflicts with other packages/softwares already installed.
+ - [Setup with Docker](#setup-with-docker) - this is the same setup you have in the labs PC.
+ - [Native setup](#native-setup) - simpler, but may cause conflicts with other packages/softwares already installed.
 
 
 ---
