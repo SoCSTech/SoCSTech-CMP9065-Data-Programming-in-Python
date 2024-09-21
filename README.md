@@ -61,7 +61,7 @@ If you are struggling to get this to work, try these common troubleshooting step
 
 
 # Native setup
-Following these steps you will be downloading all the software packages required for this software on your computer. Some packages may conflict with already existing installations, if that is the case (or you are worried it may be the case), we suggest you setup your PC following the [Setup with Docker](setup-with-docker) instructions.
+Following these steps you will be downloading all the software packages required for this software on your computer. Some packages may conflict with already existing installations, if that is the case (or you are worried it may be the case), we suggest you setup your PC following the [Setup with Docker](#setup-with-docker) instructions.
 ## Process
 1. Ensure you have the latest version of Python installed. It can be obtained from [https://www.python.org/downloads/](https://www.python.org/downloads/) for all operating sytems.
 2. Using your Command Prompt/Terminal launch the following command to install Jupyter Notebook
