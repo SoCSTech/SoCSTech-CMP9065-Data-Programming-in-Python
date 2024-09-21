@@ -33,6 +33,8 @@ These prerequisites are the same for every Computer Science module using Docker 
 
 3. Install the Remote Development extension for VSCode: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
 
+4. Install git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
+
 ### Process
 
 1. Clone this repository to your computer by opening a command prompt (a.k.a. terminal) and launching
